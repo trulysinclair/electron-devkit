@@ -1,0 +1,1 @@
+# `@electron-development-kit/window-manager`

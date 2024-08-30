@@ -1,0 +1,9 @@
+{
+  "extends": "shared/config-typescript/react-library.json",
+  "include": [
+    "./"
+  ],
+  "exclude": ["dist", "build",
+    "node_modules"
+  ]
+}

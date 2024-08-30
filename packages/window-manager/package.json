@@ -1,11 +1,13 @@
 {
-  "name": "@electron-development-kit/ui",
+  "name": "@electron-development-kit/window-manager",
   "version": "0.0.0",
-  "private": false,
   "scripts": {
     "dev": "echo 'Add dev script here'",
     "build": "echo 'Add build script here'",
     "test": "echo 'Add test script here'",
     "lint": "echo 'Add lint script here'"
+  },
+  "peerDependencies": {
+    "@electron-development-kit/core": "*"
   }
 }

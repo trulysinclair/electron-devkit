@@ -1,13 +1,15 @@
 {
   "name": "@electron-development-kit/monorepo",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
-    "type-check": "turbo type-check",
     "clean": "turbo clean",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "dev": "turbo dev",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo lint",
+    "postinstall": "husky",
+    "type-check": "turbo type-check"
   },
   "engines": {
     "node": ">=20"
@@ -19,7 +21,11 @@
     "shared/*"
   ],
   "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "auto-changelog": "^2.4.0",
     "electron": "^32.0.1",
+    "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "turbo": "^2.1.1"

@@ -1,7 +1,6 @@
 {
   "name": "@electron-development-kit/ui",
   "version": "0.0.0",
-  "private": false,
   "scripts": {
     "dev": "echo 'Add dev script here'",
     "build": "echo 'Add build script here'",

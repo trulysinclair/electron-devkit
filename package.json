@@ -9,6 +9,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo lint",
     "postinstall": "husky",
+    "test": "turbo test",
     "type-check": "turbo type-check"
   },
   "engines": {

@@ -1,0 +1,35 @@
+name: Task
+description: Add a task
+title: 'task: '
+labels:
+  - task
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a brief description of the task
+      placeholder: ex. Add a task template
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Acceptance Criteria
+      value: |
+        - [ ] Criteria 1
+        - [ ] Criteria 2
+        - [ ] Criteria 3
+    validations:
+      required: true
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Add any additional information
+      placeholder: ex. This task is a priority
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: Related Issues
+      description: Add any related issues
+      placeholder: ex. #1

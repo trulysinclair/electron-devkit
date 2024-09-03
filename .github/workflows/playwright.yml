@@ -19,7 +19,7 @@ jobs:
     - name: Install dependencies
       run: yarn install --immutable
     - name: Install Playwright Browsers
-      run: yarn workspaces foreach -A playwright install chromium --with-deps
+      run: yarn workspaces foreach -A run playwright install chromium --with-deps
     - name: Build Files
       run: yarn build
     - name: Run Playwright tests

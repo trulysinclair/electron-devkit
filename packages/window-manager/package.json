@@ -1,13 +1,20 @@
 {
   "name": "@electron-development-kit/window-manager",
   "version": "0.0.0",
+  "type": "module",
+  "main": "main.js",
   "scripts": {
-    "dev": "echo 'Add dev script here'",
+    "dev": "electron .",
     "build": "echo 'Add build script here'",
-    "test": "echo 'Add test script here'",
+    "test": "playwright test",
     "lint": "echo 'Add lint script here'"
   },
   "peerDependencies": {
     "@electron-development-kit/core": "*"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.2",
+    "electron": "^32.0.1"
   }
 }

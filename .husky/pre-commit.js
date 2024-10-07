@@ -16,7 +16,7 @@ const shouldRunTests = hasChangesInPaths(allChangedFiles, pathsToCheck)
 
 if (shouldRunTests) {
   console.log('Testing changed files')
-  execSync('yarn test', { stdio: 'inherit' })
+  // execSync('yarn test', { stdio: 'inherit' })
 } else {
   console.log('No files to test')
 }

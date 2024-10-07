@@ -1,1 +1,1 @@
-# `@electron-development-kit/core`
+# `@electron-devkit/core`

@@ -1,1 +1,1 @@
-# `@electron-development-kit/window-manager`
+# `@electron-devkit/window-manager`

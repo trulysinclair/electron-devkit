@@ -1,1 +1,1 @@
-# `@electron-development-kit/ui`
+# `@electron-devkit/ui`

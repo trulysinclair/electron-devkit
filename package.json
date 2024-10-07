@@ -1,5 +1,5 @@
 {
-  "name": "@electron-development-kit/monorepo",
+  "name": "@electron-devkit/monorepo",
   "private": true,
   "type": "module",
   "scripts": {

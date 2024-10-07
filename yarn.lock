@@ -418,15 +418,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@electron-development-kit/core@workspace:packages/core":
+"@electron-devkit/core@workspace:packages/core":
   version: 0.0.0-use.local
-  resolution: "@electron-development-kit/core@workspace:packages/core"
+  resolution: "@electron-devkit/core@workspace:packages/core"
   languageName: unknown
   linkType: soft
 
-"@electron-development-kit/monorepo@workspace:.":
+"@electron-devkit/monorepo@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@electron-development-kit/monorepo@workspace:."
+  resolution: "@electron-devkit/monorepo@workspace:."
   dependencies:
     "@commitlint/cli": "npm:^19.3.0"
     "@commitlint/config-conventional": "npm:^19.2.2"
@@ -438,15 +438,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@electron-development-kit/ui@workspace:packages/ui":
+"@electron-devkit/ui@workspace:packages/ui":
   version: 0.0.0-use.local
-  resolution: "@electron-development-kit/ui@workspace:packages/ui"
+  resolution: "@electron-devkit/ui@workspace:packages/ui"
   languageName: unknown
   linkType: soft
 
-"@electron-development-kit/window-manager@workspace:packages/window-manager":
+"@electron-devkit/window-manager@workspace:packages/window-manager":
   version: 0.0.0-use.local
-  resolution: "@electron-development-kit/window-manager@workspace:packages/window-manager"
+  resolution: "@electron-devkit/window-manager@workspace:packages/window-manager"
   dependencies:
     "@playwright/test": "npm:^1.46.1"
     "@types/node": "npm:^22.5.2"
@@ -454,7 +454,7 @@ __metadata:
     tsup: "npm:^8.2.4"
     typescript: "npm:^5.5.4"
   peerDependencies:
-    "@electron-development-kit/core": "*"
+    "@electron-devkit/core": "*"
   languageName: unknown
   linkType: soft
 

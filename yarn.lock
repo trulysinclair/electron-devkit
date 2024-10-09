@@ -421,6 +421,10 @@ __metadata:
 "@electron-devkit/core@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "@electron-devkit/core@workspace:packages/core"
+  dependencies:
+    electron: "npm:^29.4.6"
+  peerDependencies:
+    electron: ^29.4.6
   languageName: unknown
   linkType: soft
 
@@ -441,6 +445,10 @@ __metadata:
 "@electron-devkit/ui@workspace:packages/ui":
   version: 0.0.0-use.local
   resolution: "@electron-devkit/ui@workspace:packages/ui"
+  dependencies:
+    electron: "npm:^29.4.6"
+  peerDependencies:
+    electron: ^29.4.6
   languageName: unknown
   linkType: soft
 
@@ -450,11 +458,12 @@ __metadata:
   dependencies:
     "@playwright/test": "npm:^1.46.1"
     "@types/node": "npm:^22.5.2"
-    electron: "npm:^32.0.1"
+    electron: "npm:^29.4.6"
     tsup: "npm:^8.2.4"
     typescript: "npm:^5.5.4"
   peerDependencies:
     "@electron-devkit/core": "*"
+    electron: ^29.4.6
   languageName: unknown
   linkType: soft
 
@@ -2470,16 +2479,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:^32.0.1":
-  version: 32.0.1
-  resolution: "electron@npm:32.0.1"
+"electron@npm:^29.4.6":
+  version: 29.4.6
+  resolution: "electron@npm:29.4.6"
   dependencies:
     "@electron/get": "npm:^2.0.0"
     "@types/node": "npm:^20.9.0"
     extract-zip: "npm:^2.0.1"
   bin:
     electron: cli.js
-  checksum: 10c0/274412b2da617c2489f4cb0bcbd2316a8429adbc07ef8a469e5f312ca3113558b7e9b25fdc78faea95270ee11ed155c5cf4a5b11083342577defcb9b298012d7
+  checksum: 10c0/25847e3e3b0fdac2bd85d962d7db38b5870a45165f42f198d7158364e476110445bb790a20edb553a7fe4fb60d54d12241bb4582e89038ecdf354105ef204847
   languageName: node
   linkType: hard
 

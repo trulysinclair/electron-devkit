@@ -10,12 +10,13 @@
     "lint": "echo 'Add lint script here'"
   },
   "peerDependencies": {
-    "@electron-devkit/core": "*"
+    "@electron-devkit/core": "*",
+    "electron": "^29.4.6"
   },
   "devDependencies": {
     "@playwright/test": "^1.46.1",
     "@types/node": "^22.5.2",
-    "electron": "^32.0.1",
+    "electron": "^29.4.6",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4"
   }

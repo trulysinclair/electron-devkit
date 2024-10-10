@@ -459,6 +459,7 @@ __metadata:
     "@playwright/test": "npm:^1.46.1"
     "@types/node": "npm:^22.5.2"
     electron: "npm:^29.4.6"
+    es-toolkit: "npm:^1.24.0"
     tsup: "npm:^8.2.4"
     typescript: "npm:^5.5.4"
   peerDependencies:
@@ -2703,6 +2704,18 @@ __metadata:
     is-date-object: "npm:^1.0.1"
     is-symbol: "npm:^1.0.2"
   checksum: 10c0/0886572b8dc075cb10e50c0af62a03d03a68e1e69c388bd4f10c0649ee41b1fbb24840a1b7e590b393011b5cdbe0144b776da316762653685432df37d6de60f1
+  languageName: node
+  linkType: hard
+
+"es-toolkit@npm:^1.24.0":
+  version: 1.24.0
+  resolution: "es-toolkit@npm:1.24.0"
+  dependenciesMeta:
+    "@trivago/prettier-plugin-sort-imports@4.3.0":
+      unplugged: true
+    prettier-plugin-sort-re-exports@0.0.1:
+      unplugged: true
+  checksum: 10c0/0b4cfcfae2dcd9efcf9292e0de9bf04f3fc63dcb70df8341b5f7b742f7794194bca6090a09a8dda0f8f706e6726051d94721a844b3daa8e071456efbde416d14
   languageName: node
   linkType: hard
 

@@ -19,5 +19,8 @@
     "electron": "^29.4.6",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "es-toolkit": "^1.24.0"
   }
 }

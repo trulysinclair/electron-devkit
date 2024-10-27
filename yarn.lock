@@ -462,6 +462,7 @@ __metadata:
     es-toolkit: "npm:^1.24.0"
     tsup: "npm:^8.2.4"
     typescript: "npm:^5.5.4"
+    uuid: "npm:^11.0.0-0"
   peerDependencies:
     "@electron-devkit/core": "*"
     electron: ^29.4.6
@@ -6983,6 +6984,15 @@ __metadata:
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 10c0/41a5bdd214df2f6c3ecf8622745e4a366c4adced864bc3c833739791aeeeb1838119af7daed4ba36428114b5c67dcda034a79c882e97e43c03e66a4dd7389942
+  languageName: node
+  linkType: hard
+
+"uuid@npm:^11.0.0-0":
+  version: 11.0.0-0
+  resolution: "uuid@npm:11.0.0-0"
+  bin:
+    uuid: dist/esm/bin/uuid
+  checksum: 10c0/04415a6b32b82bfcacf1dabc084ae0c64beea9700dfb716bdea4b9f32a2f247f316bd7ec6619813b37fbb00685eeb76efef391d610091413e3a1d53fa13de570
   languageName: node
   linkType: hard
 
